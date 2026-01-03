@@ -8,18 +8,17 @@
       background-color: #000000;
       color: #ffffff;
       font-family: Helvetica, Arial, sans-serif;
-      padding: 50px;
+      padding: 25px;
     }
     
     h1 {
-      font-size: 24px;
-      font-weight: normal;
+      font-size: 36px;
+      font-weight: light;
       margin-bottom: 12px;
     }
     
     p {
       font-size: 14px;
-      color: #cccccc;
       margin-bottom: 30px;
       max-width: 600px;
     }
