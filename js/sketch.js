@@ -19,7 +19,7 @@ let layout=null; // {lines, rots, scales, widths, heights, aligns, size}
 
 /* ===== Setup ===== */
 function preload() {
-  FONT = loadFont('assets/HostGrotesk-Medium.ttf');
+  FONT = loadFont('assets/SpaceGrotesk-Medium.ttf');
 }
 function setup(){
   S=min(CANVAS_MAX, min(windowWidth,windowHeight));
