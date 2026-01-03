@@ -18,7 +18,9 @@ let S, FONT, cols=4, rows=4, grid=[], palette=[], phrase='', seed=0;
 let layout=null; // {lines, rots, scales, widths, heights, aligns, size}
 
 /* ===== Setup ===== */
-function preload(){ FONT=loadFont('assets/HostGrotesk-Medium.ttf'); }
+function preload() {
+  FONT = loadFont('assets/HostGrotesk-Medium.ttf');
+}
 function setup(){
   S=min(CANVAS_MAX, min(windowWidth,windowHeight));
   createCanvas(S,S); pixelDensity(2); noStroke(); textFont(FONT); rectMode(CORNERS);
